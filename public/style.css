@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #dec0f7;
+    background-image:  linear-gradient(#d4a8ff 1.1px, transparent 1.1px), linear-gradient(to right, #d4a8ff 1.1px, #dec0f7 1.1px);
+    background-size: 20px 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+
+    width: 350px;
+    height: 350px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(2px);
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px;
+    margin: 10px 10px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: 'Consolas';
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+
+input[type=submit] {
+    font-family: 'DM Sans';
+    color: rgb(255, 255, 255);
+    background-color: #a64be2;
+    width: 90px;
+    padding:8px;
+
+    margin-left: 25%;
+    margin-right: 25%;
+
+    transition: ease-out 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(148, 49, 214);
+    cursor: pointer;
+
+    
+    filter:brightness(130%);
+    transform: translateY(-8px);
+}
+
+input[type=submit]:active {
+    cursor: progress;
+}
+
+label {
+    font-size:14px;
+    color:rgb(29, 29, 29);
+}
+
+h1 {
+    font-weight: lighter;
+    color: #4e0083;
+    text-align: center;
+    padding: 15px;
+    margin-top: 6%;
+
+}
+
+span {
+    font-family: 'Consolas';
+    font-size: 14px;
+    color: rgb(182, 138, 207);
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40px;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    filter:brightness(140%);
+}
+
+.name {
+    color: rgb(176, 120, 209);
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.logo img:hover {
+    filter:brightness(100%);
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 14px;
+    color:rgb(58, 58, 58);
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #a64be2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+::selection {
+    background: rgb(181, 69, 255,0.6);
+    color: white;
+  }
