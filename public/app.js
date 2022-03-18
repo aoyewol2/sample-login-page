@@ -13,6 +13,6 @@ linksList[3] = 'https://www.youtube.com/watch?v=z2VZ_OGz0RU&ab_channel=WIRED';
 linksList[4] = 'https://www.youtube.com/watch?v=1uts8nYBGjg&ab_channel=BuzzFeedCeleb';
 
 function randomLink() {
-    window.location = linksList[Math.floor(Math.random()*linksList.length)]
+    window.location = linksList[Math.floor(Math.random()*linksList.length)];
 };
 

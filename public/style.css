@@ -128,6 +128,6 @@ a:hover {
 }
 
 ::selection {
-    background: rgb(181, 69, 255,0.6);
+    background: rgb(181, 69, 255,0.5);
     color: white;
   }
