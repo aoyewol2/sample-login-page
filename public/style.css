@@ -21,7 +21,6 @@ body {
     height: 350px;
 
     border-radius: 20px;
-
     backdrop-filter: blur(2px);
 }
 
@@ -54,8 +53,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgb(148, 49, 214);
     cursor: pointer;
-
-    
     filter:brightness(130%);
     transform: translateY(-8px);
 }
